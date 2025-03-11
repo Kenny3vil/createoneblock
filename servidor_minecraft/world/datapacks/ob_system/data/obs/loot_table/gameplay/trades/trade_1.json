@@ -1,0 +1,17 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "obs:gameplay/trades/specific/sapling"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "obs:gameplay/trades/specific/ores"
+        }
+      ]
+    }
+  ]
+}

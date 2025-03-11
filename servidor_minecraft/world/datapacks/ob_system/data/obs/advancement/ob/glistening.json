@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_ingot"
+    },
+    "title": {
+      "translate": "obs.ob.glistening.title",
+      "fallback": "Glistening"
+    },
+    "description": {
+      "translate": "obs.ob.glistening.desc",
+      "fallback": "Obtain a gold ingot"
+    }
+  },
+  "parent": "obs:ob/iron",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gold_ingot"
+          }
+        ]
+      }
+    }
+  }
+}

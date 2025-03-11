@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_ingot"
+    },
+    "title": {
+      "translate": "obs.progress.progress_1.title",
+      "fallback": "OneBlock Expert: Iron"
+    },
+    "description": {
+      "translate": "obs.progress.progress_1.desc",
+      "fallback": "Mine the block 100k times"
+    },
+    "hidden": true,
+    "frame": "goal"
+  },
+  "parent": "obs:ap/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

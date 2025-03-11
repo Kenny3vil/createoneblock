@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cake"
+    },
+    "title": {
+      "translate": "obs.ob.cake.title",
+      "fallback": "Happy Birthday!"
+    },
+    "description": {
+      "translate": "obs.ob.cake.desc",
+      "fallback": "Bake a cake"
+    }
+  },
+  "parent": "obs:ob/meaty",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cake"
+          }
+        ]
+      }
+    }
+  }
+}

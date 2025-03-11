@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_shovel"
+    },
+    "title": {
+      "translate": "obs.ob.root.title",
+      "fallback": "Welcome to OneBlock"
+    },
+    "description": {
+      "translate": "obs.ob.root.desc",
+      "fallback": "Start of the block"
+    },
+    "background": "minecraft:textures/block/light_blue_wool.png",
+    "frame": "goal"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

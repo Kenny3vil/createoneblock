@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dirt"
+    },
+    "title": {
+      "translate": "obs.progress.dirt_7.title",
+      "fallback": "Overworld Challenge"
+    },
+    "description": {
+      "translate": "obs.progress.dirt_7.desc",
+      "fallback": "Place 10000 blocks"
+    }
+  },
+  "parent": "obs:phases/dirt_6",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

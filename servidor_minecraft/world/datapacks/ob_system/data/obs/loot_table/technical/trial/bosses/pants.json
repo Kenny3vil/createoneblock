@@ -1,0 +1,58 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": 4
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": {
+                  "rgb": 9458010
+                },
+                "minecraft:trim": {
+                  "material": "minecraft:copper",
+                  "pattern": "minecraft:flow"
+                },
+                "minecraft:unbreakable": {}
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:armor_toughness",
+                  "id": "obs:boss_toughness_pants",
+                  "amount": 2,
+                  "operation": "add_value",
+                  "slot": "any"
+                },
+                {
+                  "attribute": "minecraft:armor",
+                  "id": "obs:boss_armor_pants",
+                  "amount": 6,
+                  "operation": "add_value",
+                  "slot": "any"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

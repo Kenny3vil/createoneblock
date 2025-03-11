@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wind_charge"
+    },
+    "title": {
+      "translate": "obs.ap.wind.title",
+      "fallback": "Winds of Change"
+    },
+    "description": {
+      "translate": "obs.ap.wind.desc",
+      "fallback": "Hit the ender dragon with a wind charge"
+    }
+  },
+  "parent": "obs:ap/phantom",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "type": "minecraft:wind_charge"
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:ender_dragon"
+        }
+      }
+    }
+  }
+}

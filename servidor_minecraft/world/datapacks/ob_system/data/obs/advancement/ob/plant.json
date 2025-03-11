@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_sapling"
+    },
+    "title": {
+      "translate": "obs.ob.plant.title",
+      "fallback": "#PlantATree"
+    },
+    "description": {
+      "translate": "obs.ob.plant.desc",
+      "fallback": "Place down a sapling"
+    }
+  },
+  "parent": "obs:ob/sapling",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "player": [],
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "#minecraft:saplings"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

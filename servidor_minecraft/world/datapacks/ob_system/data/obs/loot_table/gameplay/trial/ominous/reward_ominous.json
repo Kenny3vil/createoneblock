@@ -1,0 +1,220 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "obs:gameplay/trial/mob_ominous",
+          "weight": 8,
+          "conditions": [
+			{
+			  "condition": "minecraft:value_check",
+			  "value": {
+				"type": "minecraft:score",
+				"target": {
+				  "type": "minecraft:fixed",
+				  "name": "#cob.trial.wave"
+				},
+				"score": "cob.trial"
+			  },
+			  "range": {
+				"min": 5
+			  }
+			}
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "obs:gameplay/trial/ominous/reward_ominous_common",
+          "weight": 10
+        }
+      ],
+      "rolls": 2.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "obs:gameplay/trial/ominous/reward_ominous_rare",
+          "weight": 8,
+          "conditions": [
+			{
+			  "condition": "minecraft:value_check",
+			  "value": {
+				"type": "minecraft:score",
+				"target": {
+				  "type": "minecraft:fixed",
+				  "name": "#cob.trial.wave"
+				},
+				"score": "cob.trial"
+			  },
+			  "range": {
+				"min": 10
+			  }
+			}
+          ]
+        }
+      ],
+      "rolls": 2.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "obs:gameplay/trial/ominous/reward_ominous_rare",
+          "weight": 8,
+          "conditions": [
+			{
+			  "condition": "minecraft:value_check",
+			  "value": {
+				"type": "minecraft:score",
+				"target": {
+				  "type": "minecraft:fixed",
+				  "name": "#cob.trial.wave"
+				},
+				"score": "cob.trial"
+			  },
+			  "range": {
+				"min": 5
+			  }
+			}
+          ]
+        }
+      ],
+      "rolls": 2.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "obs:gameplay/trial/ominous/reward_ominous_rare",
+          "weight": 8,
+          "conditions": [
+			{
+			  "condition": "minecraft:value_check",
+			  "value": {
+				"type": "minecraft:score",
+				"target": {
+				  "type": "minecraft:fixed",
+				  "name": "#cob.trial.wave"
+				},
+				"score": "cob.trial"
+			  },
+			  "range": {
+				"min": 5
+			  }
+			}
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "obs:gameplay/trial/ominous/reward_ominous_common",
+          "weight": 2
+        }
+      ],
+      "rolls": 2.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "obs:gameplay/trial/ominous/reward_ominous_common"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 3.0,
+        "min": 2.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "chance": 0.65,
+          "condition": "minecraft:random_chance"
+        },
+        {
+          "condition": "minecraft:value_check",
+          "value": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": "#cob.trial.wave"
+            },
+            "score": "cob.trial"
+          },
+          "range": {
+            "min": 6
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "obs:gameplay/trial/ominous/reward_ominous_unique"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:value_check",
+          "value": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": "#cob.trial.wave"
+            },
+            "score": "cob.trial"
+          },
+          "range": {
+            "min": 13
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "obs:gameplay/trial/ominous/reward_ominous_unique"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:value_check",
+          "value": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": "#cob.trial.wave"
+            },
+            "score": "cob.trial"
+          },
+          "range": {
+            "min": 17
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "obs:gameplay/trial/ominous/reward_ominous_unique"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:chests/trial_chambers/reward"
+}

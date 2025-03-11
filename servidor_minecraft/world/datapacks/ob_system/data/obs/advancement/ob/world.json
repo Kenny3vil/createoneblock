@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_bed"
+    },
+    "title": {
+      "translate": "obs.ob.world.title",
+      "fallback": "Part of my Overworld"
+    },
+    "description": {
+      "translate": "obs.ob.world.desc",
+      "fallback": "Fill in all Visitor Requirements"
+    }
+  },
+  "parent": "obs:ob/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

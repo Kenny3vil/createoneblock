@@ -1,0 +1,24 @@
+{
+	"parent": "obs:tips/mob_drops",
+  "display": {
+    "icon": {
+      "id": "minecraft:beef"
+    },
+    "title": {
+      "translate": "obs.tips.spawns.title",
+      "fallback": "Passive Mobs"
+    },
+    "description": {
+      "translate": "obs.tips.spawns.desc",
+      "fallback": "Passive mobs can spawn very rarely on grass blocks far enough from the player, but the Mysterious trader can bring you some if needed"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

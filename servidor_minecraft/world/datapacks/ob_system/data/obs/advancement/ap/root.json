@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_rocket"
+    },
+    "title": {
+      "translate": "obs.ap.root.title",
+      "fallback": "After Party Challenges"
+    },
+    "description": {
+      "translate": "obs.ap.root.desc",
+      "fallback": "The After Party Begins"
+    },
+    "background": "minecraft:textures/block/sculk_catalyst_top.png",
+    "frame": "goal"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+execute positioned -13 ~ -40 if block ~ ~ ~ minecraft:bedrock unless entity @e[tag=ob.shulker.spawn,distance=..5] run summon marker ~ ~2 ~ {Tags:["ob.shulker.spawn"]}
+execute positioned 12 ~ -40 if block ~ ~ ~ minecraft:bedrock unless entity @e[tag=ob.shulker.spawn,distance=..5] run summon marker ~ ~2 ~ {Tags:["ob.shulker.spawn"]}
+execute positioned 33 ~ -25 if block ~ ~ ~ minecraft:bedrock unless entity @e[tag=ob.shulker.spawn,distance=..5] run summon marker ~ ~2 ~ {Tags:["ob.shulker.spawn"]}
+execute positioned 42 ~ 0 if block ~ ~ ~ minecraft:bedrock unless entity @e[tag=ob.shulker.spawn,distance=..5] run summon marker ~ ~2 ~ {Tags:["ob.shulker.spawn"]}
+execute positioned 33 ~ 24 if block ~ ~ ~ minecraft:bedrock unless entity @e[tag=ob.shulker.spawn,distance=..5] run summon marker ~ ~2 ~ {Tags:["ob.shulker.spawn"]}
+execute positioned 12 ~ 39 if block ~ ~ ~ minecraft:bedrock unless entity @e[tag=ob.shulker.spawn,distance=..5] run summon marker ~ ~2 ~ {Tags:["ob.shulker.spawn"]}
+execute positioned -13 ~ 39 if block ~ ~ ~ minecraft:bedrock unless entity @e[tag=ob.shulker.spawn,distance=..5] run summon marker ~ ~2 ~ {Tags:["ob.shulker.spawn"]}
+execute positioned -34 ~ 24 if block ~ ~ ~ minecraft:bedrock unless entity @e[tag=ob.shulker.spawn,distance=..5] run summon marker ~ ~2 ~ {Tags:["ob.shulker.spawn"]}
+execute positioned -42 ~ -1 if block ~ ~ ~ minecraft:bedrock unless entity @e[tag=ob.shulker.spawn,distance=..5] run summon marker ~ ~2 ~ {Tags:["ob.shulker.spawn"]}
+execute positioned -34 ~ -25 if block ~ ~ ~ minecraft:bedrock unless entity @e[tag=ob.shulker.spawn,distance=..5] run summon marker ~ ~2 ~ {Tags:["ob.shulker.spawn"]}

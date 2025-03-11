@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone"
+    },
+    "title": {
+      "translate": "obs.ob.redstone.title",
+      "fallback": "Over Complication"
+    },
+    "description": {
+      "translate": "obs.ob.redstone.desc",
+      "fallback": "Obtain redstone"
+    }
+  },
+  "parent": "obs:ob/glistening",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:redstone"
+          }
+        ]
+      }
+    }
+  }
+}

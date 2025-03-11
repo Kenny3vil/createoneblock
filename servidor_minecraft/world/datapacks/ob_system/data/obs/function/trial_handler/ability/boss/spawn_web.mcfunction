@@ -1,0 +1,1 @@
+summon silverfish ~ ~ ~ {Health:0f,active_effects:[{id:"minecraft:weaving",amplifier:1,duration:20}],Attributes:[{Name:generic.max_health,Base:0}]}

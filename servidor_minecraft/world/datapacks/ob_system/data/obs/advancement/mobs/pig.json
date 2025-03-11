@@ -1,0 +1,18 @@
+{
+  "parent": "obs:ob/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:pig_spawn_egg"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "obs:mobs/pig"
+  }
+}

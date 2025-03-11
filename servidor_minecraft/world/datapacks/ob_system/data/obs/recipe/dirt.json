@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "blocks",
+  "ingredients": [
+    "#minecraft:saplings"
+  ],
+  "result": {
+    "id": "minecraft:dirt",
+    "count": 1
+  }
+}

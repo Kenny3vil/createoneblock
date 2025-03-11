@@ -1,0 +1,12 @@
+{
+  "parent": "obs:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "function": "obs:block_placement"
+  }
+}

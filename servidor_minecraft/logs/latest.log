@@ -1,0 +1,636 @@
+[04:14:52] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
+[04:14:52] [ForkJoinPool-1-worker-2/WARN]: Mod travelersbackpack uses the version fabric-1.20.1-9.1.10 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[04:14:53] [ForkJoinPool-1-worker-2/WARN]: Mod creategoggles uses the version 0.5.5.g which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'g'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[04:14:54] [main/WARN]: Warnings were found!
+ - Mod 'Debugify' (debugify) 1.20.1+2.0 recommends any 3.x version of yet-another-config-lib, which is missing!
+	 - You should install any 3.x version of yet-another-config-lib for the optimal experience.
+ - Mod 'Spawn Animations' (spawnanimations) 1.9.4+mod recommends any version of modmenu-badges-lib, which is missing!
+	 - You should install any version of modmenu-badges-lib for the optimal experience.
+ - Mod 'Spawn Animations' (spawnanimations) 1.9.4+mod recommends any version of midnightlib, which is missing!
+	 - You should install any version of midnightlib for the optimal experience.
+[04:14:54] [main/INFO]: Loading 166 mods:
+	- appleskin 2.5.1+mc1.20
+	- architectury 9.2.14
+	- athena 3.1.2
+	- betterstats 3.9.5+fabric-1.20.1
+	   \-- tcdcommons 3.9.4+fabric-1.20.1
+	- botarium 2.3.3
+	   \-- team_reborn_energy 3.0.0
+	- cardinal-components 5.2.2
+	   |-- cardinal-components-base 5.2.2
+	   |-- cardinal-components-block 5.2.2
+	   |-- cardinal-components-chunk 5.2.2
+	   |-- cardinal-components-entity 5.2.2
+	   |-- cardinal-components-item 5.2.2
+	   |-- cardinal-components-level 5.2.2
+	   |-- cardinal-components-scoreboard 5.2.2
+	   \-- cardinal-components-world 5.2.2
+	- chipped 3.0.4
+	- cloth-config 11.1.118
+	   \-- cloth-basic-math 0.6.1
+	- clumps 12.0.0.3
+	- completeconfig 2.4.1
+	   |-- completeconfig-base 2.4.1
+	   |-- completeconfig-gui-cloth 2.4.1
+	   \-- completeconfig-gui-yacl 2.4.1
+	- contentcreatorintegration 1.11.1
+	- copycats 2.1.2+mc.1.20.1-fabric
+	- create 0.5.1-f-build.1335+mc1.20.1
+	   |-- com_electronwill_night-config_core 3.6.5
+	   |-- com_electronwill_night-config_toml 3.6.5
+	   |-- com_google_code_findbugs_jsr305 3.0.2
+	   |-- flywheel 0.6.10-2
+	   |-- milk 1.2.60
+	   |    \-- dripstone_fluid_lib 3.0.2
+	   |-- porting_lib_accessors 2.3.0+1.20.1
+	   |    \-- porting_lib_core 2.3.0+1.20.1
+	   |-- porting_lib_base 2.3.0+1.20.1
+	   |    |-- porting_lib_attributes 2.3.0+1.20.1
+	   |    |-- porting_lib_common 2.3.0+1.20.1
+	   |    |-- porting_lib_core 2.3.0+1.20.1
+	   |    |-- porting_lib_fluids 2.3.0+1.20.1
+	   |    |-- porting_lib_lazy_registration 2.3.0+1.20.1
+	   |    |-- porting_lib_mixin_extensions 2.3.0+1.20.1
+	   |    |-- porting_lib_utility 2.3.0+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_brewing 2.3.0+1.20.1
+	   |    \-- porting_lib_core 2.3.0+1.20.1
+	   |-- porting_lib_client_events 2.3.0+1.20.1
+	   |    \-- porting_lib_core 2.3.0+1.20.1
+	   |-- porting_lib_entity 2.3.0+1.20.1
+	   |    |-- porting_lib_core 2.3.0+1.20.1
+	   |    \-- porting_lib_mixin_extensions 2.3.0+1.20.1
+	   |-- porting_lib_extensions 2.3.0+1.20.1
+	   |    |-- porting_lib_attributes 2.3.0+1.20.1
+	   |    |-- porting_lib_common 2.3.0+1.20.1
+	   |    |-- porting_lib_core 2.3.0+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_models 2.3.0+1.20.1
+	   |    |-- porting_lib_core 2.3.0+1.20.1
+	   |    |-- porting_lib_fluids 2.3.0+1.20.1
+	   |    \-- porting_lib_model_loader 2.3.0+1.20.1
+	   |-- porting_lib_networking 2.3.0+1.20.1
+	   |    \-- porting_lib_core 2.3.0+1.20.1
+	   |-- porting_lib_obj_loader 2.3.0+1.20.1
+	   |    |-- porting_lib_core 2.3.0+1.20.1
+	   |    \-- porting_lib_model_loader 2.3.0+1.20.1
+	   |-- porting_lib_tags 3.0
+	   |    \-- porting_lib_core 2.3.0+1.20.1
+	   |-- porting_lib_tool_actions 2.3.0+1.20.1
+	   |    \-- porting_lib_core 2.3.0+1.20.1
+	   |-- porting_lib_transfer 2.3.0+1.20.1
+	   |    |-- porting_lib_core 2.3.0+1.20.1
+	   |    \-- porting_lib_fluids 2.3.0+1.20.1
+	   |-- reach-entity-attributes 2.4.0
+	   \-- registrate-fabric 1.3.62-MC1.20.1
+	        |-- porting_lib_data 2.1.1090+1.20
+	        |    \-- porting_lib_gametest 2.1.1090+1.20
+	        \-- porting_lib_model_generators 2.1.1090+1.20
+	             |-- porting_lib_gametest 2.1.1090+1.20
+	             \-- porting_lib_model_materials 2.1.1090+1.20
+	- create_enchantment_industry 1.2.16
+	   \-- create_dragon_lib 1.4.2
+	- create_high_pressure 1.1.0
+	- create_jetpack 4.2.0
+	   \-- flightlib 2.1.0
+	- create_new_age 1.1.2
+	- create_oxidized 0.1.1+1.20.1
+	   \-- terraform-wood-api-v1 7.0.1
+	- create_power_loader 1.4.3-mc1.20.1-fabric
+	   |-- porting_lib_accessors 2.3.0+1.20.1
+	   |    \-- porting_lib_core 2.3.0+1.20.1
+	   |-- porting_lib_base 2.3.0+1.20.1
+	   |    |-- porting_lib_attributes 2.3.0+1.20.1
+	   |    |-- porting_lib_common 2.3.0+1.20.1
+	   |    |-- porting_lib_core 2.3.0+1.20.1
+	   |    |-- porting_lib_fluids 2.3.0+1.20.1
+	   |    |-- porting_lib_lazy_registration 2.3.0+1.20.1
+	   |    |-- porting_lib_mixin_extensions 2.3.0+1.20.1
+	   |    |-- porting_lib_utility 2.3.0+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_brewing 2.3.0+1.20.1
+	   |    \-- porting_lib_core 2.3.0+1.20.1
+	   |-- porting_lib_chunk_loading 2.3.0+1.20.1
+	   |    \-- porting_lib_core 2.3.0+1.20.1
+	   |-- porting_lib_client_events 2.3.0+1.20.1
+	   |    \-- porting_lib_core 2.3.0+1.20.1
+	   |-- porting_lib_entity 2.3.0+1.20.1
+	   |    |-- porting_lib_core 2.3.0+1.20.1
+	   |    \-- porting_lib_mixin_extensions 2.3.0+1.20.1
+	   |-- porting_lib_extensions 2.3.0+1.20.1
+	   |    |-- porting_lib_attributes 2.3.0+1.20.1
+	   |    |-- porting_lib_common 2.3.0+1.20.1
+	   |    |-- porting_lib_core 2.3.0+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_models 2.3.0+1.20.1
+	   |    |-- porting_lib_core 2.3.0+1.20.1
+	   |    |-- porting_lib_fluids 2.3.0+1.20.1
+	   |    \-- porting_lib_model_loader 2.3.0+1.20.1
+	   |-- porting_lib_networking 2.3.0+1.20.1
+	   |    \-- porting_lib_core 2.3.0+1.20.1
+	   |-- porting_lib_obj_loader 2.3.0+1.20.1
+	   |    |-- porting_lib_core 2.3.0+1.20.1
+	   |    \-- porting_lib_model_loader 2.3.0+1.20.1
+	   |-- porting_lib_tags 3.0
+	   |    \-- porting_lib_core 2.3.0+1.20.1
+	   |-- porting_lib_tool_actions 2.3.0+1.20.1
+	   |    \-- porting_lib_core 2.3.0+1.20.1
+	   \-- porting_lib_transfer 2.3.0+1.20.1
+	        |-- porting_lib_core 2.3.0+1.20.1
+	        \-- porting_lib_fluids 2.3.0+1.20.1
+	- creategoggles 0.5.5.g
+	- createutilities 0.3.0+1.20.1
+	   \-- team_reborn_energy 3.0.0
+	- crystallized 1.0.0+1.20.1
+	   \-- registrate-fabric 1.3.62-MC1.20.1
+	        |-- porting_lib_data 2.1.1090+1.20
+	        |    \-- porting_lib_gametest 2.1.1090+1.20
+	        \-- porting_lib_model_generators 2.1.1090+1.20
+	             |-- porting_lib_gametest 2.1.1090+1.20
+	             \-- porting_lib_model_materials 2.1.1090+1.20
+	- debugify 1.20.1+2.0
+	- exposure 1.4.1
+	- fabric-api 0.92.0+1.20.1
+	   |-- fabric-api-base 0.4.31+1802ada577
+	   |-- fabric-api-lookup-api-v1 1.6.36+1802ada577
+	   |-- fabric-biome-api-v1 13.0.13+1802ada577
+	   |-- fabric-block-api-v1 1.0.11+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.1+1802ada577
+	   |-- fabric-blockrenderlayer-v1 1.1.41+1802ada577
+	   |-- fabric-client-tags-api-v1 1.1.2+1802ada577
+	   |-- fabric-command-api-v1 1.2.34+f71b366f77
+	   |-- fabric-command-api-v2 2.2.13+1802ada577
+	   |-- fabric-commands-v0 0.2.51+df3654b377
+	   |-- fabric-containers-v0 0.1.64+df3654b377
+	   |-- fabric-content-registries-v0 4.0.11+1802ada577
+	   |-- fabric-convention-tags-v1 1.5.5+1802ada577
+	   |-- fabric-crash-report-info-v1 0.2.19+1802ada577
+	   |-- fabric-data-attachment-api-v1 1.0.0+de0fd6d177
+	   |-- fabric-data-generation-api-v1 12.3.4+1802ada577
+	   |-- fabric-dimensions-v1 2.1.54+1802ada577
+	   |-- fabric-entity-events-v1 1.6.0+1c78457f77
+	   |-- fabric-events-interaction-v0 0.6.2+1802ada577
+	   |-- fabric-events-lifecycle-v0 0.2.63+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.40+1802ada577
+	   |-- fabric-item-api-v1 2.1.28+1802ada577
+	   |-- fabric-item-group-api-v1 4.0.12+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.37+1802ada577
+	   |-- fabric-keybindings-v0 0.2.35+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.22+1802ada577
+	   |-- fabric-loot-api-v2 1.2.1+1802ada577
+	   |-- fabric-loot-tables-v1 1.1.45+9e7660c677
+	   |-- fabric-message-api-v1 5.1.9+1802ada577
+	   |-- fabric-mining-level-api-v1 2.1.50+1802ada577
+	   |-- fabric-model-loading-api-v1 1.0.3+1802ada577
+	   |-- fabric-models-v0 0.4.2+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.11+1802ada577
+	   |-- fabric-networking-v0 0.3.51+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.3+1802ada577
+	   |-- fabric-particles-v1 1.1.2+1802ada577
+	   |-- fabric-recipe-api-v1 1.0.21+1802ada577
+	   |-- fabric-registry-sync-v0 2.3.3+1802ada577
+	   |-- fabric-renderer-api-v1 3.2.1+1802ada577
+	   |-- fabric-renderer-indigo 1.5.1+1802ada577
+	   |-- fabric-renderer-registries-v1 3.2.46+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.37+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.28+1802ada577
+	   |-- fabric-rendering-v0 1.1.49+df3654b377
+	   |-- fabric-rendering-v1 3.0.8+1802ada577
+	   |-- fabric-resource-conditions-api-v1 2.3.8+1802ada577
+	   |-- fabric-resource-loader-v0 0.11.10+1802ada577
+	   |-- fabric-screen-api-v1 2.0.8+1802ada577
+	   |-- fabric-screen-handler-api-v1 1.3.30+1802ada577
+	   |-- fabric-sound-api-v1 1.0.13+1802ada577
+	   |-- fabric-transfer-api-v1 3.3.4+1802ada577
+	   \-- fabric-transitive-access-wideners-v1 4.3.1+1802ada577
+	- fabric-language-kotlin 1.10.19+kotlin.1.9.23
+	   |-- org_jetbrains_kotlin_kotlin-reflect 1.9.23
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 1.9.23
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 1.9.23
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 1.9.23
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.23.2
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.5.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.6.3
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.6.3
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.6.3
+	- fabricloader 0.16.3
+	   \-- mixinextras 0.4.1
+	- ferritecore 6.0.1
+	- forgeconfigapiport 8.0.0
+	- forgottengraves 1.20.1-3.2.6
+	- immersive_paintings 0.6.7+1.20.1
+	- items_displayed 1.2.2
+	- jade 11.8.0
+	- jadeaddons 5.2.3
+	- java 17
+	- jei 15.3.0.4
+	- krypton 0.2.3
+	   \-- com_velocitypowered_velocity-native 3.2.0-SNAPSHOT
+	- lazydfu 0.1.3
+	- lithium 0.11.2
+	- memoryleakfix 1.1.5
+	- minecraft 1.20.1
+	- modernfix 5.16.1+mc1.20.1
+	- molten_metals 1.20.1-0.1.4
+	- moonlight 1.20-2.12.20
+	- niftycarts 3.0.1+1.20.1
+	- railways 1.5.3+fabric-mc1.20.1
+	   \-- mm 2.3
+	- resourcefullib 2.1.24
+	   |-- com_teamresourceful_bytecodecs 1.0.2
+	   \-- com_teamresourceful_yabn 1.0.3
+	- rprenames 0.8.2
+	- seasons 2.3+1.20
+	- skinlayers3d 1.6.2
+	- spawnanimations 1.9.4+mod
+	- starlight 1.1.2+fabric.dbc156f
+	- travelersbackpack fabric-1.20.1-9.1.10
+	   \-- reach-entity-attributes 2.4.0
+	- voicechat 1.20.1-2.5.11
+	   \-- fabric-key-binding-api-v1 1.0.36+fb8d95da82
+	- worldedit 7.2.15+6463-5ca4dff
+	- yet_another_config_lib_v3 3.4.0+1.20.1-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.10.0
+	   |-- com_twelvemonkeys_common_common-io 3.10.0
+	   |-- com_twelvemonkeys_common_common-lang 3.10.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.10.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.10.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.10.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+[04:14:54] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/createoneblock/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[04:14:54] [main/INFO]: Compatibility level set to JAVA_17
+[04:14:55] [main/WARN]: Reference map 'immersive_paintings-common-refmap.json' for immersive_paintings.mixin.json could not be read. If this is a development environment you can ignore this message
+[04:14:55] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 3 override(s) found
+[04:14:55] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[04:14:56] [main/INFO]: Loaded configuration file for ModernFix 5.16.1+mc1.20.1: 55 options available, 0 override(s) found
+[04:14:56] [main/INFO]: Applying Nashorn fix
+[04:14:56] [main/WARN]: Reference map 'molten_metals-common-refmap.json' for molten_metals-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[04:14:56] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[04:14:56] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
+[04:14:56] [main/WARN]: Error loading class: link/infra/indium/renderer/helper/GeometryHelper (java.lang.ClassNotFoundException: link/infra/indium/renderer/helper/GeometryHelper)
+[04:14:56] [main/WARN]: Error loading class: net/fabricmc/fabric/impl/client/indigo/renderer/helper/GeometryHelper (java.lang.ClassNotFoundException: net/fabricmc/fabric/impl/client/indigo/renderer/helper/GeometryHelper)
+[04:14:56] [main/WARN]: Error loading class: com/firemerald/additionalplacements/common/ConfigCommon (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/common/ConfigCommon)
+[04:14:56] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[04:14:56] [main/WARN]: @Mixin target com.firemerald.additionalplacements.block.AdditionalPlacementBlock was not found copycats-common.mixins.json:compat.additionalplacements.PlacementBlockMixin from mod copycats
+[04:14:56] [main/WARN]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults)
+[04:14:56] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockOcclusionCache (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockOcclusionCache)
+[04:14:56] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockRenderer (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockRenderer)
+[04:14:57] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[04:14:57] [main/WARN]: Force-enabling mixin 'block.hopper.worldedit_compat.WorldChunkMixin' as rule 'mixin.block.hopper.worldedit_compat' (added by mods [lithium-fabric]) enables it
+[04:14:57] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [krypton]) disables it and children
+[04:14:57] [main/WARN]: Error loading class: net/minecraft/class_5616 (java.lang.ClassNotFoundException: net/minecraft/class_5616)
+[04:14:57] [main/WARN]: @Mixin target net.minecraft.class_5616 was not found registrate-fabric.mixins.json:accessor.BlockEntityRenderersAccessor from mod registrate-fabric
+[04:14:57] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[04:14:57] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[04:14:57] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[04:14:57] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[04:14:57] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[04:15:00] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on porting_lib_entity.mixins.json:common.LivingEntityMixin from mod porting_lib_entity::handler$ccp000$porting_lib_entity$port_lib$onFinishUsing exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[04:15:01] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[04:15:01] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[04:15:01] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[04:15:01] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[04:15:01] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[04:15:02] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[04:15:02] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[04:15:02] [main/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[04:15:02] [main/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[04:15:02] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[04:15:05] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[04:15:05] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[04:15:06] [main/INFO]: Vanilla bootstrap took 7722 milliseconds
+[04:15:09] [main/WARN]: Configuration file ./config/copycats-common.toml is not correct. Correcting
+[04:15:09] [main/WARN]: Incorrect key disableMigration was corrected from null to its default, false. 
+[04:15:09] [main/WARN]: Incorrect key features was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04:15:09] [main/WARN]: Incorrect key features.copycat_vertical_stairs was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key features.copycat_byte was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key features.copycat_vertical_slice was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key features.copycat_wooden_pressure_plate was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key features.copycat_block was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key features.copycat_shaft was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key features.copycat_large_cogwheel was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key features.copycat_fence was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key features.copycat_wall was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key features.copycat_cogwheel was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key features.copycat_vertical_step was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key features.copycat_slope_layer was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key features.copycat_light_weighted_pressure_plate was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key features.copycat_stairs was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key features.copycat_fence_gate was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key features.copycat_slab was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key features.copycat_board was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key features.copycat_wooden_button was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key features.copycat_trapdoor was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key features.copycat_stone_pressure_plate was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key features.copycat_half_panel was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key features.copycat_slice was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key features.copycat_beam was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key features.copycat_door was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key features.copycat_iron_door was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key features.copycat_ghost_block was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key features.copycat_fluid_pipe was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key features.copycat_heavy_weighted_pressure_plate was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key features.copycat_iron_trapdoor was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key features.copycat_half_layer was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key features.copycat_stone_button was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key features.copycat_ladder was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key features.copycat_layer was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key features.copycat_slope was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key features.copycat_vertical_slope was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key feature_categories was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04:15:09] [main/WARN]: Incorrect key feature_categories.slopes was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key feature_categories.multistates was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key feature_categories.stackables was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key feature_categories.redstone was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key feature_categories.functional was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key feature_categories.create was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Configuration file ./config/copycats-client.toml is not correct. Correcting
+[04:15:09] [main/WARN]: Incorrect key useEnhancedModels was corrected from null to its default, true. 
+[04:15:09] [main/WARN]: Incorrect key disableGraphicsWarnings was corrected from null to its default, false. 
+[04:15:09] [main/WARN]: Incorrect key colorizeMultiStates was corrected from null to its default, false. 
+[04:15:11] [main/WARN]: Configuration file ./config/create-common.toml is not correct. Correcting
+[04:15:11] [main/WARN]: Incorrect key worldgen was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04:15:11] [main/WARN]: Incorrect key worldgen.disableWorldGen was corrected from null to its default, false. 
+[04:15:11] [main/WARN]: Configuration file ./config/create-client.toml is not correct. Correcting
+[04:15:11] [main/WARN]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04:15:11] [main/WARN]: Incorrect key client.enableTooltips was corrected from null to its default, true. 
+[04:15:11] [main/WARN]: Incorrect key client.enableOverstressedTooltip was corrected from null to its default, true. 
+[04:15:11] [main/WARN]: Incorrect key client.explainRenderErrors was corrected from null to its default, false. 
+[04:15:11] [main/WARN]: Incorrect key client.fanParticleDensity was corrected from null to its default, 0.5. 
+[04:15:11] [main/WARN]: Incorrect key client.filterItemRenderDistance was corrected from null to its default, 10.0. 
+[04:15:11] [main/WARN]: Incorrect key client.enableRainbowDebug was corrected from null to its default, false. 
+[04:15:11] [main/WARN]: Incorrect key client.maximumContraptionLightVolume was corrected from null to its default, 16384. 
+[04:15:11] [main/WARN]: Incorrect key client.mainMenuConfigButtonRow was corrected from null to its default, 2. 
+[04:15:11] [main/WARN]: Incorrect key client.mainMenuConfigButtonOffsetX was corrected from null to its default, -4. 
+[04:15:11] [main/WARN]: Incorrect key client.ingameMenuConfigButtonRow was corrected from null to its default, 3. 
+[04:15:11] [main/WARN]: Incorrect key client.ingameMenuConfigButtonOffsetX was corrected from null to its default, -4. 
+[04:15:11] [main/WARN]: Incorrect key client.ignoreFabulousWarning was corrected from null to its default, false. 
+[04:15:11] [main/WARN]: Incorrect key client.fluidUnitType was corrected from null to its default, MILLIBUCKETS. 
+[04:15:11] [main/WARN]: Incorrect key client.simplifyFluidUnit was corrected from null to its default, true. 
+[04:15:11] [main/WARN]: Incorrect key client.toolboxHotbarOverlayOffset was corrected from null to its default, 0. 
+[04:15:11] [main/WARN]: Incorrect key client.fluidFogSettings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04:15:11] [main/WARN]: Incorrect key client.fluidFogSettings.honey was corrected from null to its default, 1.0. 
+[04:15:11] [main/WARN]: Incorrect key client.fluidFogSettings.chocolate was corrected from null to its default, 1.0. 
+[04:15:11] [main/WARN]: Incorrect key client.goggleOverlay was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04:15:11] [main/WARN]: Incorrect key client.goggleOverlay.overlayOffsetX was corrected from null to its default, 20. 
+[04:15:11] [main/WARN]: Incorrect key client.goggleOverlay.overlayOffsetY was corrected from null to its default, 0. 
+[04:15:11] [main/WARN]: Incorrect key client.goggleOverlay.customColorsOverlay was corrected from null to its default, false. 
+[04:15:11] [main/WARN]: Incorrect key client.goggleOverlay.customBackgroundOverlay was corrected from null to its default, -267386864. 
+[04:15:11] [main/WARN]: Incorrect key client.goggleOverlay.customBorderTopOverlay was corrected from null to its default, 1347420415. 
+[04:15:11] [main/WARN]: Incorrect key client.goggleOverlay.customBorderBotOverlay was corrected from null to its default, 1344798847. 
+[04:15:11] [main/WARN]: Incorrect key client.placementAssist was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04:15:11] [main/WARN]: Incorrect key client.placementAssist.indicatorType was corrected from null to its default, TEXTURE. 
+[04:15:11] [main/WARN]: Incorrect key client.placementAssist.indicatorScale was corrected from null to its default, 1.0. 
+[04:15:11] [main/WARN]: Incorrect key client.ponder was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04:15:11] [main/WARN]: Incorrect key client.ponder.comfyReading was corrected from null to its default, false. 
+[04:15:11] [main/WARN]: Incorrect key client.ponder.editingMode was corrected from null to its default, false. 
+[04:15:11] [main/WARN]: Incorrect key client.sound was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04:15:11] [main/WARN]: Incorrect key client.sound.enableAmbientSounds was corrected from null to its default, true. 
+[04:15:11] [main/WARN]: Incorrect key client.sound.ambientVolumeCap was corrected from null to its default, 0.10000000149011612. 
+[04:15:11] [main/WARN]: Incorrect key client.trains was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04:15:11] [main/WARN]: Incorrect key client.trains.mountedZoomMultiplier was corrected from null to its default, 3.0. 
+[04:15:11] [main/WARN]: Incorrect key client.trains.showTrackGraphOnF3 was corrected from null to its default, false. 
+[04:15:11] [main/WARN]: Incorrect key client.trains.showExtendedTrackGraphOnF3 was corrected from null to its default, false. 
+[04:15:12] [main/INFO]: Create: Dragon Lib Create Dragon Lib has initialized, ready to support your Create add-ons!
+[04:15:12] [main/INFO]: CEI: hyper_experience_orb got converted to hyper_experience_orb
+[04:15:12] [main/INFO]: CEI: hyper_experience_bottle got converted to hyper_experience_bottle
+[04:15:12] [main/INFO]: Initializing CreateHighPressureMod
+[04:15:12] [main/WARN]: Configuration file ./config/create_jetpack-common.toml is not correct. Correcting
+[04:15:12] [main/WARN]: Incorrect key air was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04:15:12] [main/WARN]: Incorrect key air.uses_per_tank was corrected from null to its default, 2048. 
+[04:15:12] [main/WARN]: Incorrect key air.uses_per_tank_hover was corrected from null to its default, 20480. 
+[04:15:12] [main/WARN]: Incorrect key speed was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04:15:12] [main/WARN]: Incorrect key speed.horizontal was corrected from null to its default, 0.02. 
+[04:15:12] [main/WARN]: Incorrect key speed.vertical was corrected from null to its default, 0.4. 
+[04:15:12] [main/WARN]: Incorrect key speed.acceleration was corrected from null to its default, 0.6. 
+[04:15:12] [main/WARN]: Incorrect key speed.hover_descend was corrected from null to its default, -0.03. 
+[04:15:12] [main/WARN]: Incorrect key speed.swim_modifier was corrected from null to its default, 1.8. 
+[04:15:12] [main/WARN]: Incorrect key features was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04:15:12] [main/WARN]: Incorrect key features.elytra_boost was corrected from null to its default, 1.25. 
+[04:15:12] [main/WARN]: Configuration file ./config/create_jetpack-client.toml is not correct. Correcting
+[04:15:12] [main/WARN]: Incorrect key overlay was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04:15:12] [main/WARN]: Incorrect key overlay.enabled was corrected from null to its default, true. 
+[04:15:12] [main/WARN]: Incorrect key overlay.position was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04:15:12] [main/WARN]: Incorrect key overlay.position.x was corrected from null to its default, 6. 
+[04:15:12] [main/WARN]: Incorrect key overlay.position.y was corrected from null to its default, 6. 
+[04:15:12] [main/WARN]: Incorrect key overlay.scale was corrected from null to its default, 1.0. 
+[04:15:12] [main/WARN]: Incorrect key effects was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04:15:12] [main/WARN]: Incorrect key effects.seasonal was corrected from null to its default, true. 
+[04:15:12] [main/INFO]: Hello 1.20.1 Create!
+[04:15:12] [main/WARN]: Configuration file ./config/create_new_age-client.toml is not correct. Correcting
+[04:15:12] [main/WARN]: Incorrect key wireSectionsPerMeter was corrected from null to its default, 10. 
+[04:15:12] [main/WARN]: Incorrect key wireThickness was corrected from null to its default, 0.03. 
+[04:15:12] [main/WARN]: Configuration file ./config/create_new_age-common.toml is not correct. Correcting
+[04:15:12] [main/WARN]: Incorrect key suToEnergy was corrected from null to its default, 0.029296875. 
+[04:15:12] [main/WARN]: Incorrect key maxCoils was corrected from null to its default, 8. 
+[04:15:12] [main/WARN]: Incorrect key maxRodsInDirection was corrected from null to its default, 32. 
+[04:15:12] [main/WARN]: Incorrect key conductivityMultiplier was corrected from null to its default, 1.0. 
+[04:15:12] [main/WARN]: Incorrect key maxPathfindingDepth was corrected from null to its default, 32. 
+[04:15:12] [main/WARN]: Incorrect key energiserSpeedMultiplier was corrected from null to its default, 1.0. 
+[04:15:12] [main/WARN]: Incorrect key overheatingMultiplier was corrected from null to its default, 1.0. 
+[04:15:12] [main/WARN]: Incorrect key passiveHeatSourceMultiplier was corrected from null to its default, 1.0. 
+[04:15:12] [main/WARN]: Incorrect key passivePipeHeatLoss was corrected from null to its default, 1.0. 
+[04:15:12] [main/WARN]: Incorrect key boilerRequiredHeatMultiplier was corrected from null to its default, 1.0. 
+[04:15:12] [main/WARN]: Incorrect key ReactorRodHeat was corrected from null to its default, 30.0. 
+[04:15:12] [main/WARN]: Incorrect key ReactorRodHeatLoss was corrected from null to its default, 25.0. 
+[04:15:12] [main/WARN]: Incorrect key solarPanelHeatMultiplier was corrected from null to its default, 1.0. 
+[04:15:12] [main/WARN]: Incorrect key maxWireLength was corrected from null to its default, 16. 
+[04:15:12] [main/WARN]: Incorrect key Motors was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04:15:12] [main/WARN]: Incorrect key Motors.motorSuMultiplier was corrected from null to its default, 1.0. 
+[04:15:12] [main/WARN]: Incorrect key Motors.basicMotorCapacity was corrected from null to its default, 16000. 
+[04:15:12] [main/WARN]: Incorrect key Motors.advancedMotorCapacity was corrected from null to its default, 64000. 
+[04:15:12] [main/WARN]: Incorrect key Motors.reinforcedMotorCapacity was corrected from null to its default, 128000. 
+[04:15:12] [main/WARN]: Incorrect key Motors.basicMotorSpeed was corrected from null to its default, 128.0. 
+[04:15:12] [main/WARN]: Incorrect key Motors.advancedMotorSpeed was corrected from null to its default, 256.0. 
+[04:15:12] [main/WARN]: Incorrect key Motors.reinforcedMotorSpeed was corrected from null to its default, 256.0. 
+[04:15:12] [main/WARN]: Incorrect key Motors.basicMotorStress was corrected from null to its default, 512.0. 
+[04:15:12] [main/WARN]: Incorrect key Motors.advancedMotorStress was corrected from null to its default, 2048.0. 
+[04:15:12] [main/WARN]: Incorrect key Motors.reinforcedMotorStress was corrected from null to its default, 8192.0. 
+[04:15:12] [main/WARN]: Incorrect key Motor Extensions was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04:15:12] [main/WARN]: Incorrect key Motor Extensions.basicMotorExtensionMultiplier was corrected from null to its default, 2.0. 
+[04:15:12] [main/WARN]: Incorrect key Motor Extensions.advancedMotorExtensionMultiplier was corrected from null to its default, 8.0. 
+[04:15:12] [main/WARN]: Incorrect key Motor Extensions.basicMotorExtensionExtraCapacity was corrected from null to its default, 64000. 
+[04:15:12] [main/WARN]: Incorrect key Motor Extensions.advancedMotorExtensionExtraCapacity was corrected from null to its default, 256000. 
+[04:15:12] [main/WARN]: Incorrect key Motor Extensions.basicMotorExtensionScrollStep was corrected from null to its default, 1. 
+[04:15:12] [main/WARN]: Incorrect key Motor Extensions.advancedMotorExtensionScrollStep was corrected from null to its default, 8. 
+[04:15:12] [main/INFO]: CreateGoggles init
+[04:15:12] [main/INFO]: cgblocks
+[04:15:12] [main/INFO]: cgitems
+[04:15:12] [main/INFO]: cgblockentities
+[04:15:12] [main/INFO]: ResourceKey[minecraft:trim_pattern / creategoggles:goggle]
+[04:15:12] [main/INFO]: ResourceKey[minecraft:trim_material / creategoggles:goggle_material]
+[04:15:12] [main/INFO]: ResourceKey[minecraft:root / minecraft:trim_pattern]
+[04:15:12] [main/INFO]: CGItemModifiers register false
+[04:15:12] [main/INFO]: CreateGogglesFabric init
+[04:15:12] [main/WARN]: Configuration file ./config/creategoggles-client.toml is not correct. Correcting
+[04:15:12] [main/WARN]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04:15:12] [main/WARN]: Incorrect key general.moveGoggleToEyes was corrected from null to its default, false. 
+[04:15:12] [main/WARN]: Incorrect key general.enableCreativeModeGoggles was corrected from null to its default, true. 
+[04:15:12] [main/WARN]: Configuration file ./config/creategoggles-common.toml is not correct. Correcting
+[04:15:12] [main/WARN]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04:15:12] [main/WARN]: Incorrect key general.customCurioGoggleSlot was corrected from null to its default, false. 
+[04:15:12] [main/WARN]: Incorrect key general.customCurioBacktankSlot was corrected from null to its default, false. 
+[04:15:12] [main/WARN]: Incorrect key general.enableExperimentalFeatures was corrected from null to its default, true. 
+[04:15:12] [main/INFO]: Create addon mod [Create: Crystallized] is loading alongside Create [0.5.1f]!
+[04:15:12] [main/INFO]: Create: Crystallized is accessing Porting Lib from the server!
+[04:15:12] [main/INFO]: GroupRegister Loaded
+[04:15:12] [main/INFO]: ItemRegister Loaded
+[04:15:12] [main/INFO]: FluidRegistrate Loaded
+[04:15:12] [main/INFO]: Registering Crystallized Resource Pack
+[04:15:12] [main/INFO]: Saving config because the loaded bug fixes are different to stored json.
+[04:15:12] [main/INFO]: Saving Debugify
+[04:15:12] [main/INFO]: Enabled 34 bug fixes: [MC-2025, MC-7569, MC-8187, MC-14923, MC-30391, MC-31819, MC-69216, MC-72151, MC-88371, MC-89146, MC-90084, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-124117, MC-129909, MC-132878, MC-135971, MC-155509, MC-160095, MC-179072, MC-183990, MC-193343, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
+[04:15:12] [main/INFO]: Successfully Debugify'd your game!
+[04:15:12] [main/WARN]: Configuration file ./config/exposure-common.toml is not correct. Correcting
+[04:15:12] [main/WARN]: Incorrect key Camera was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04:15:12] [main/WARN]: Incorrect key Camera.DefaultFocalRange was corrected from null to its default, 18-55. 
+[04:15:12] [main/WARN]: Incorrect key Camera.LensFocalRanges was corrected from null to its default, [minecraft:spyglass,55-200]. 
+[04:15:12] [main/WARN]: Incorrect key Lightroom was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04:15:12] [main/WARN]: Incorrect key Lightroom.BlackAndWhitePrintTime was corrected from null to its default, 80. 
+[04:15:12] [main/WARN]: Incorrect key Lightroom.ColorPrintTime was corrected from null to its default, 200. 
+[04:15:12] [main/WARN]: Incorrect key Lightroom.ExperiencePerPrint was corrected from null to its default, 4. 
+[04:15:12] [main/WARN]: Incorrect key Photographs was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04:15:12] [main/WARN]: Incorrect key Photographs.StackedPhotographsMaxSize was corrected from null to its default, 16. 
+[04:15:12] [main/WARN]: Incorrect key Integration was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04:15:12] [main/WARN]: Incorrect key Integration.Create was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04:15:12] [main/WARN]: Incorrect key Integration.Create.SequencedSpoutFilmDeveloping was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04:15:12] [main/WARN]: Incorrect key Integration.Create.SequencedSpoutFilmDeveloping.Enabled was corrected from null to its default, true. 
+[04:15:12] [main/WARN]: Incorrect key Integration.Create.SequencedSpoutFilmDeveloping.ColorFilmSequence was corrected from null to its default, [{FluidName:"create:potion",Amount:27000,Tag:{Potion:"minecraft:awkward"}}, {FluidName:"create:potion",Amount:27000,Tag:{Potion:"minecraft:thick"}}, {FluidName:"create:potion",Amount:27000,Tag:{Potion:"minecraft:mundane"}}]. 
+[04:15:12] [main/WARN]: Incorrect key Integration.Create.SequencedSpoutFilmDeveloping.BlackAndWhiteFilmSequence was corrected from null to its default, [{FluidName:"minecraft:water",Amount:27000}]. 
+[04:15:12] [main/WARN]: Configuration file ./config/exposure-client.toml is not correct. Correcting
+[04:15:12] [main/WARN]: Incorrect key UI was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04:15:12] [main/WARN]: Incorrect key UI.RecipeTooltipsWithoutJei was corrected from null to its default, true. 
+[04:15:12] [main/WARN]: Incorrect key UI.CameraSneakOpenTooltip was corrected from null to its default, true. 
+[04:15:12] [main/WARN]: Incorrect key UI.PhotographPhotographerNameTooltip was corrected from null to its default, false. 
+[04:15:12] [main/WARN]: Incorrect key UI.PhotographInHandHideCrosshair was corrected from null to its default, true. 
+[04:15:12] [main/WARN]: Incorrect key UI.AlbumShowPhotosCount was corrected from null to its default, true. 
+[04:15:12] [main/WARN]: Incorrect key UI.SignedAlbumGlint was corrected from null to its default, true. 
+[04:15:12] [main/WARN]: Incorrect key UI.Viewfinder was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04:15:12] [main/WARN]: Incorrect key UI.Viewfinder.ZoomSensitivityModifier was corrected from null to its default, 0.048. 
+[04:15:12] [main/WARN]: Incorrect key UI.Viewfinder.BackgroundColorHex was corrected from null to its default, FA1F1D1B. 
+[04:15:12] [main/WARN]: Incorrect key UI.Viewfinder.FontMainColorHex was corrected from null to its default, FF2B2622. 
+[04:15:12] [main/WARN]: Incorrect key UI.Viewfinder.FontSecondaryColorHex was corrected from null to its default, FF7A736C. 
+[04:15:12] [main/WARN]: Incorrect key Capture was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04:15:12] [main/WARN]: Incorrect key Capture.FlashCaptureDelayTicks was corrected from null to its default, 3. 
+[04:15:12] [main/WARN]: Incorrect key FileSaving was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04:15:12] [main/WARN]: Incorrect key FileSaving.SavePhotographs was corrected from null to its default, true. 
+[04:15:12] [main/WARN]: Incorrect key FileSaving.WorldNameSubfolder was corrected from null to its default, true. 
+[04:15:13] [main/INFO]: Registering configs
+[04:15:13] [main/INFO]: Config 'items_displayed_config' is missing, generating default one...
+[04:15:13] [main/INFO]: Registering blocks
+[04:15:13] [main/INFO]: Registering items
+[04:15:13] [main/INFO]: Registering item groups
+[04:15:13] [main/INFO]: Registering entities
+[04:15:13] [main/INFO]: Registering tags
+[04:15:13] [main/INFO]: Registering event handlers
+[04:15:13] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
+[04:15:13] [main/INFO]: Definitely not up to no good
+[04:15:13] [main/INFO]: Loaded config molten_metals-common.json
+[04:15:13] [main/WARN]: Configuration file ./config/niftycarts-common.toml is not correct. Correcting
+[04:15:13] [main/WARN]: Incorrect key carts was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04:15:13] [main/WARN]: Incorrect key carts.supply_cart was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04:15:13] [main/WARN]: Incorrect key carts.supply_cart.pull_animals was corrected from null to its default, []. 
+[04:15:13] [main/WARN]: Incorrect key carts.supply_cart.slow_speed was corrected from null to its default, -0.65. 
+[04:15:13] [main/WARN]: Incorrect key carts.supply_cart.pull_speed was corrected from null to its default, 0.0. 
+[04:15:13] [main/WARN]: Incorrect key carts.animal_cart was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04:15:13] [main/WARN]: Incorrect key carts.animal_cart.pull_animals was corrected from null to its default, []. 
+[04:15:13] [main/WARN]: Incorrect key carts.animal_cart.slow_speed was corrected from null to its default, -0.65. 
+[04:15:13] [main/WARN]: Incorrect key carts.animal_cart.pull_speed was corrected from null to its default, 0.0. 
+[04:15:13] [main/WARN]: Incorrect key carts.plow was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04:15:13] [main/WARN]: Incorrect key carts.plow.pull_animals was corrected from null to its default, []. 
+[04:15:13] [main/WARN]: Incorrect key carts.plow.slow_speed was corrected from null to its default, -0.65. 
+[04:15:13] [main/WARN]: Incorrect key carts.plow.pull_speed was corrected from null to its default, 0.0. 
+[04:15:13] [main/INFO]: Registered bogey styles from railways
+[04:15:14] [main/INFO]: Registering data fixers
+[04:15:14] [main/INFO]: Bypassed Mojang DFU
+[04:15:14] [main/INFO]: Instantiating Mojang DFU
+[04:15:15] [main/INFO]: 0 Datafixer optimizations took 0 milliseconds
+[04:15:15] [main/INFO]: Registering tracks for Hex Casting
+[04:15:15] [main/INFO]: Registering tracks for Oh The Biomes You'll Go
+[04:15:15] [main/INFO]: Registering tracks for Blue Skies
+[04:15:15] [main/INFO]: Registering tracks for Twilight Forest
+[04:15:15] [main/INFO]: Registering tracks for Biomes O' Plenty
+[04:15:15] [main/WARN]: Configuration file ./config/railways-common.toml is not correct. Correcting
+[04:15:15] [main/WARN]: Incorrect key registerMissingTracks was corrected from null to its default, false. 
+[04:15:15] [main/WARN]: Incorrect key disableDatafixer was corrected from null to its default, false. 
+[04:15:15] [main/WARN]: Configuration file ./config/railways-client.toml is not correct. Correcting
+[04:15:15] [main/WARN]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04:15:15] [main/WARN]: Incorrect key client.disableOptifineNag was corrected from null to its default, false. 
+[04:15:15] [main/WARN]: Incorrect key client.showExtendedCouplerDebug was corrected from null to its default, false. 
+[04:15:15] [main/WARN]: Incorrect key client.skipClientDerailing was corrected from null to its default, false. 
+[04:15:15] [main/WARN]: Incorrect key client.useConductorSpyShader was corrected from null to its default, true. 
+[04:15:15] [main/WARN]: Incorrect key client.trackOverlayOffset was corrected from null to its default, 0.0. 
+[04:15:15] [main/WARN]: Incorrect key client.useDevCape was corrected from null to its default, true. 
+[04:15:15] [main/WARN]: Incorrect key client.smoke was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04:15:15] [main/WARN]: Incorrect key client.smoke.smokeLifetime was corrected from null to its default, 500. 
+[04:15:15] [main/WARN]: Incorrect key client.smoke.smokePercentage was corrected from null to its default, 0.75. 
+[04:15:15] [main/WARN]: Incorrect key client.smoke.smokeQuality was corrected from null to its default, HIGH. 
+[04:15:15] [main/WARN]: Incorrect key client.journeymap was corrected from null to its default, SimpleCommentedConfig:{}. 
+[04:15:15] [main/WARN]: Incorrect key client.journeymap.updateRate was corrected from null to its default, 1. 
+[04:15:15] [main/WARN]: Incorrect key client.journeymap.removeObsoleteRate was corrected from null to its default, 200. 
+[04:15:15] [main/INFO]: [Fabric Seasons] Trying to read config file...
+[04:15:15] [main/INFO]: [Fabric Seasons] No config file found, creating a new one...
+[04:15:15] [main/INFO]: [Fabric Seasons] Successfully created default config file.
+[04:15:15] [main/INFO]: [Spawn Animations] Loaded Spawn Animations by Tschipcraft successfully!
+[04:15:15] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
+[04:15:15] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
+[04:15:15] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
+[04:15:15] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
+[04:15:15] [main/INFO]: [voicechat] Compatibility version 18
+[04:15:15] [main/INFO]: [voicechat] Loading plugins
+[04:15:15] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[04:15:15] [main/INFO]: [voicechat] Initializing plugins
+[04:15:15] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[04:15:16] [main/INFO]: Got request to register class com.sk89q.worldedit.fabric.FabricPlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5b8c594c]
+[04:15:16] [main/INFO]: WorldEdit for Fabric (version 7.2.15+6463-5ca4dff) is loaded
+[04:15:16] [main/ERROR]: Failed to start the minecraft server
+java.lang.RuntimeException: Could not execute entrypoint stage 'main' due to errors, provided by 'contentcreatorintegration' at 'me.ichun.mods.cci.common.ContentCreatorIntegration'!
+	at net.fabricmc.loader.impl.FabricLoaderImpl.lambda$invokeEntrypoints$2(FabricLoaderImpl.java:403) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:401) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startServer(Hooks.java:63) ~[fabric-loader-0.16.3.jar:?]
+	at net.minecraft.server.Main.main(Main.java:112) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+Caused by: java.lang.NoSuchFieldError: checkbox
+	at me.lortseam.completeconfig.data.BooleanEntry.<init>(BooleanEntry.java:26) ~[completeconfig-base-2.4.1-6412c4717b71dbc2.jar:?]
+	at me.lortseam.completeconfig.data.Entry.create(Entry.java:42) ~[completeconfig-base-2.4.1-6412c4717b71dbc2.jar:?]
+	at me.lortseam.completeconfig.data.EntrySet.lambda$resolve$1(EntrySet.java:31) ~[completeconfig-base-2.4.1-6412c4717b71dbc2.jar:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at me.lortseam.completeconfig.data.EntrySet.resolve(EntrySet.java:32) ~[completeconfig-base-2.4.1-6412c4717b71dbc2.jar:?]
+	at me.lortseam.completeconfig.data.Parent.resolveContainer(Parent.java:58) ~[completeconfig-base-2.4.1-6412c4717b71dbc2.jar:?]
+	at me.lortseam.completeconfig.data.ClusterSet.resolve(ClusterSet.java:13) ~[completeconfig-base-2.4.1-6412c4717b71dbc2.jar:?]
+	at me.lortseam.completeconfig.data.Parent.resolve(Parent.java:108) ~[completeconfig-base-2.4.1-6412c4717b71dbc2.jar:?]
+	at me.lortseam.completeconfig.data.Parent.lambda$resolveContainer$6(Parent.java:97) ~[completeconfig-base-2.4.1-6412c4717b71dbc2.jar:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) ~[?:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at me.lortseam.completeconfig.data.Parent.resolveContainer(Parent.java:97) ~[completeconfig-base-2.4.1-6412c4717b71dbc2.jar:?]
+	at me.lortseam.completeconfig.data.Parent.resolve(Parent.java:110) ~[completeconfig-base-2.4.1-6412c4717b71dbc2.jar:?]
+	at me.lortseam.completeconfig.data.Config.lambda$new$0(Config.java:52) ~[completeconfig-base-2.4.1-6412c4717b71dbc2.jar:?]
+	at me.lortseam.completeconfig.data.Config.deserialize(Config.java:94) ~[completeconfig-base-2.4.1-6412c4717b71dbc2.jar:?]
+	at me.lortseam.completeconfig.data.Config.load(Config.java:121) ~[completeconfig-base-2.4.1-6412c4717b71dbc2.jar:?]
+	at me.ichun.mods.cci.common.ContentCreatorIntegration.onInitialize(ContentCreatorIntegration.java:160) ~[ContentCreatorIntegration-1.20.1-Fabric-1.11.1.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:399) ~[fabric-loader-0.16.3.jar:?]
+	... 7 more

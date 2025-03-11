@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:milk_bucket"
+    },
+    "title": {
+      "translate": "obs.ob.milk.title",
+      "fallback": "Milkyway"
+    },
+    "description": {
+      "translate": "obs.ob.milk.desc",
+      "fallback": "Milk a Cow"
+    }
+  },
+  "parent": "obs:ob/farmer",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:bucket"
+        },
+        "entity": {
+          "type": "minecraft:cow"
+        }
+      }
+    }
+  }
+}

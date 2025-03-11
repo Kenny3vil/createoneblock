@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+  "pattern": [
+    "AAA"
+  ],
+  "key": {
+    "A": "minecraft:honeycomb"
+  },
+  "result": {
+    "id": "minecraft:paper",
+    "count": 6
+  }
+}

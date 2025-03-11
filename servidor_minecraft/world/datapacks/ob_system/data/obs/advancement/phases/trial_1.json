@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trial_key"
+    },
+    "title": {
+      "translate": "obs.progress.trial_1.title",
+      "fallback": "First Try"
+    },
+    "description": {
+      "translate": "obs.progress.trial_1.desc",
+      "fallback": "Start your first One Block Trial"
+    }
+  },
+  "parent": "obs:phases/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

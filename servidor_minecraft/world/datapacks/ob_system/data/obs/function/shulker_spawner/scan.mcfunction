@@ -1,0 +1,10 @@
+execute in minecraft:the_end positioned 0 76 0 run function obs:shulker_spawner/check_layer
+execute in minecraft:the_end positioned 0 79 0 run function obs:shulker_spawner/check_layer
+execute in minecraft:the_end positioned 0 82 0 run function obs:shulker_spawner/check_layer
+execute in minecraft:the_end positioned 0 85 0 run function obs:shulker_spawner/check_layer
+execute in minecraft:the_end positioned 0 88 0 run function obs:shulker_spawner/check_layer
+execute in minecraft:the_end positioned 0 91 0 run function obs:shulker_spawner/check_layer
+execute in minecraft:the_end positioned 0 94 0 run function obs:shulker_spawner/check_layer
+execute in minecraft:the_end positioned 0 97 0 run function obs:shulker_spawner/check_layer
+execute in minecraft:the_end positioned 0 100 0 run function obs:shulker_spawner/check_layer
+execute in minecraft:the_end positioned 0 103 0 run function obs:shulker_spawner/check_layer

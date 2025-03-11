@@ -1,0 +1,24 @@
+{
+	"parent": "obs:tips/biomes",
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_eye"
+    },
+    "title": {
+      "translate": "obs.tips.end.title",
+      "fallback": "Nearing The End"
+    },
+    "description": {
+      "translate": "obs.tips.end.desc",
+      "fallback": "You can build an end portal in the nether with a crying obsidian surrounded by 8 sculk blocks and that surrounded by 12 endstone, you need to place the crying obsidian last"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

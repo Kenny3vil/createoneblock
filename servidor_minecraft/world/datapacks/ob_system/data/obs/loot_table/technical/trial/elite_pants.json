@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:copper",
+                  "pattern": "minecraft:bolt"
+                }
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 15,
+              "treasure": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

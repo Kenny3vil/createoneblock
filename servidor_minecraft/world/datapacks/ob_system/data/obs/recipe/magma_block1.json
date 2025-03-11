@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": "minecraft:cobblestone",
+    "B": "minecraft:flint_and_steel"
+  },
+  "result": {
+    "id": "minecraft:magma_block",
+    "count": 4
+  }
+}

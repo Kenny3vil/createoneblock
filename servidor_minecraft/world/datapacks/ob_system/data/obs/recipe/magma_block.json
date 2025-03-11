@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": "minecraft:cobblestone",
+    "B": "minecraft:lava_bucket"
+  },
+  "result": {
+    "id": "minecraft:magma_block",
+    "count": 4
+  }
+}

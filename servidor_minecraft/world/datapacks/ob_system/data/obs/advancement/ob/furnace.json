@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:furnace"
+    },
+    "title": {
+      "translate": "obs.ob.furnace.title",
+      "fallback": "Let him cook"
+    },
+    "description": {
+      "translate": "obs.ob.furnace.desc",
+      "fallback": "Obtain a furnace"
+    }
+  },
+  "parent": "obs:ob/cobblemania",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:furnace"
+          }
+        ]
+      }
+    }
+  }
+}

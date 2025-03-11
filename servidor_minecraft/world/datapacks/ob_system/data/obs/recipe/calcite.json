@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+  "pattern": [
+    "AB",
+    "BA"
+  ],
+  "key": {
+    "A": "minecraft:quartz",
+    "B": "minecraft:andesite"
+  },
+  "result": {
+    "id": "minecraft:calcite",
+    "count": 2
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "obs:tips/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:book"
+    },
+    "title": {
+      "translate": "obs.tips.recipes.title",
+      "fallback": "Know your crafts"
+    },
+    "description": {
+      "translate": "obs.tips.recipes.desc",
+      "fallback": "You can see custom recipes in the recipe book"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

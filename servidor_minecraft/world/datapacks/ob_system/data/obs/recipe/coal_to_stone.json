@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "blocks",
+  "ingredients": [
+    "minecraft:stone",
+    "minecraft:deepslate_coal_ore"
+  ],
+  "result": {
+    "id": "minecraft:coal_ore"
+  }
+}

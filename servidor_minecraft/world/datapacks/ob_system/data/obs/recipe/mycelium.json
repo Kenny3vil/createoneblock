@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+  "pattern": [
+    "AB",
+    "BA"
+  ],
+  "key": {
+    "A": "#obs:mushrooms",
+    "B": "minecraft:dirt"
+  },
+  "result": {
+    "id": "minecraft:mycelium",
+    "count": 2
+  }
+}

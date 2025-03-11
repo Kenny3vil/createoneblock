@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trial_key"
+    },
+    "title": {
+      "translate": "obs.progress.trial_2.title",
+      "fallback": "Trials Novice"
+    },
+    "description": {
+      "translate": "obs.progress.trial_2.desc",
+      "fallback": "Finish your 1st One Block Trials"
+    }
+  },
+  "parent": "obs:phases/trial_1",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

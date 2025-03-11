@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:coal"
+    },
+    "title": {
+      "translate": "obs.ob.coal.title",
+      "fallback": "Hot n' Coal"
+    },
+    "description": {
+      "translate": "obs.ob.coal.desc",
+      "fallback": "Obtain coal"
+    }
+  },
+  "parent": "obs:ob/furnace",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:coal"
+          }
+        ]
+      }
+    }
+  }
+}

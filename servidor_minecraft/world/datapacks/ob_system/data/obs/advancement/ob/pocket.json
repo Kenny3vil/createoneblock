@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bundle"
+    },
+    "title": {
+      "translate": "obs.ob.pocket.title",
+      "fallback": "Minecraft: Pocket Edition"
+    },
+    "description": {
+      "translate": "obs.ob.pocket.desc",
+      "fallback": "Obtain a bundle"
+    }
+  },
+  "parent": "obs:ob/holy_cow",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bundle"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cobblestone"
+    },
+    "title": {
+      "translate": "obs.ob.cobblemania.title",
+      "fallback": "Cobblemania"
+    },
+    "description": {
+      "translate": "obs.ob.cobblemania.desc",
+      "fallback": "Obtain cobblestone"
+    }
+  },
+  "parent": "obs:ob/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cobblestone"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:apple"
+    },
+    "title": {
+      "translate": "obs.ob.apple.title",
+      "fallback": "Apple Pie"
+    },
+    "description": {
+      "translate": "obs.ob.apple.desc",
+      "fallback": "Obtain 16 apples"
+    }
+  },
+  "parent": "obs:ob/sapling",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:apple",
+            "count": {
+              "min": 16
+            }
+          }
+        ]
+      }
+    }
+  }
+}

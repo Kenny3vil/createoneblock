@@ -1,0 +1,24 @@
+{
+	"parent": "obs:tips/end",
+  "display": {
+    "icon": {
+      "id": "minecraft:bedrock"
+    },
+    "title": {
+      "translate": "obs.tips.gate.title",
+      "fallback": "Closed Gates"
+    },
+    "description": {
+      "translate": "obs.tips.gate.desc",
+      "fallback": "You cannot go into the outer islands of the end, but you can obtain the items in otherways"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

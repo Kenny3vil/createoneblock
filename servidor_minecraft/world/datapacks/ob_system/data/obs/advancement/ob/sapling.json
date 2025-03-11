@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_sapling"
+    },
+    "title": {
+      "translate": "obs.ob.sapling.title",
+      "fallback": "Woodlands"
+    },
+    "description": {
+      "translate": "obs.ob.sapling.desc",
+      "fallback": "Obtain a sapling"
+    }
+  },
+  "parent": "obs:ob/cobblemania",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:saplings"
+          }
+        ]
+      }
+    }
+  }
+}

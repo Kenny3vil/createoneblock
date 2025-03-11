@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "blocks",
+  "ingredients": [
+    "minecraft:dirt"
+  ],
+  "result": {
+    "id": "minecraft:oak_sapling",
+    "count": 1
+  }
+}

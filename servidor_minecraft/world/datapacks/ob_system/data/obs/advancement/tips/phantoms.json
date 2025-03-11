@@ -1,0 +1,24 @@
+{
+	"parent": "obs:tips/mob_drops",
+  "display": {
+    "icon": {
+      "id": "minecraft:phantom_membrane"
+    },
+    "title": {
+      "translate": "obs.tips.phantoms.title",
+      "fallback": "Phantoms"
+    },
+    "description": {
+      "translate": "obs.tips.phantoms.desc",
+      "fallback": "Phantoms can spawn when you are couple blocks above the block and you haven't slept"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

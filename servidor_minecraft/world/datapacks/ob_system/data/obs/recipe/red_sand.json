@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+  "pattern": [
+    "AB",
+    "BA"
+  ],
+  "key": {
+    "A": "minecraft:sand",
+    "B": "minecraft:netherrack"
+  },
+  "result": {
+    "id": "minecraft:red_sand",
+    "count": 4
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stick"
+    },
+    "title": {
+      "translate": "obs.ob.witch.title",
+      "fallback": "Witch It"
+    },
+    "description": {
+      "translate": "obs.ob.witch.desc",
+      "fallback": "Kill a witch"
+    }
+  },
+  "parent": "obs:ob/husk",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:witch"
+        }
+      }
+    }
+  }
+}

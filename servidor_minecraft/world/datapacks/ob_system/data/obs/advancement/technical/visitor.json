@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{Tags:[\"ob.visitor\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "obs:visitor_trade"
+  }
+}

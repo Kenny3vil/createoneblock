@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "blocks",
+  "ingredients": [
+    "minecraft:deepslate",
+    "minecraft:lapis_ore"
+  ],
+  "result": {
+    "id": "minecraft:deepslate_lapis_ore"
+  }
+}

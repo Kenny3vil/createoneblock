@@ -1,0 +1,24 @@
+{
+	"parent": "obs:tips/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "obs.tips.trader.title",
+      "fallback": "Mysterious Trader"
+    },
+    "description": {
+      "translate": "obs.tips.trader.desc",
+      "fallback": "Time to time a mysterious trader appears bringing lots of unobtainable items for you to buy"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

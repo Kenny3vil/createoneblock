@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": "minecraft:sandstone",
+    "B": "minecraft:ender_eye"
+  },
+  "result": {
+    "id": "minecraft:end_stone",
+    "count": 4
+  }
+}

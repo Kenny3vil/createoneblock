@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+  "pattern": [
+    "AB",
+    "BA"
+  ],
+  "key": {
+    "A": "minecraft:cobblestone",
+    "B": "minecraft:blackstone"
+  },
+  "result": {
+    "id": "minecraft:cobbled_deepslate",
+    "count": 4
+  }
+}

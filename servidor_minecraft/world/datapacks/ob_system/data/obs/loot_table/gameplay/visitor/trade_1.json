@@ -1,0 +1,96 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:white_bed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:light_gray_bed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gray_bed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:black_bed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brown_bed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_bed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:orange_bed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:yellow_bed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lime_bed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:green_bed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cyan_bed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:light_blue_bed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blue_bed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:purple_bed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:magenta_bed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pink_bed"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "{\"fallback\":\"1st Requirement\",\"translate\":\"obs.item.requirement.1\",\"italic\":false}",
+                "minecraft:lore": [
+                  "{\"fallback\":\"-Complete all requirements for the Visitor to stay\",\"translate\":\"obs.item.requirement.lore\",\"color\":\"gray\",\"italic\":false}"
+                ],
+                "minecraft:custom_data": {
+					"visitor_requirement":1
+				}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

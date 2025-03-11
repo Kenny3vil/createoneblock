@@ -1,0 +1,19 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": "Start One Block Trials",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:chiseled_tuff"
+    },
+    "title": {
+      "translate": "advancements.adventure.minecraft_trials_edition.title"
+    }
+  },
+  "sends_telemetry_event": true
+}

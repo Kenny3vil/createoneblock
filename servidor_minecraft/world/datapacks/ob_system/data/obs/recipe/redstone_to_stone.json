@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "blocks",
+  "ingredients": [
+    "minecraft:stone",
+    "minecraft:deepslate_redstone_ore"
+  ],
+  "result": {
+    "id": "minecraft:redstone_ore"
+  }
+}

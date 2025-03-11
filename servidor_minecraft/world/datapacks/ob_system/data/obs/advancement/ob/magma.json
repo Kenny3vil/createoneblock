@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:magma_block"
+    },
+    "title": {
+      "translate": "obs.ob.magma.title",
+      "fallback": "Warm Summer"
+    },
+    "description": {
+      "translate": "obs.ob.magma.desc",
+      "fallback": "Obtain magma block"
+    }
+  },
+  "parent": "obs:ob/coal",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:magma_block"
+          }
+        ]
+      }
+    }
+  }
+}

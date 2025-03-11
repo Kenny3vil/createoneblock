@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:obsidian"
+    },
+    "title": {
+      "translate": "obs.ob.obsidian.title",
+      "fallback": "Obsidian Obsession"
+    },
+    "description": {
+      "translate": "obs.ob.obsidian.desc",
+      "fallback": "Obtain obsidian"
+    }
+  },
+  "parent": "obs:ob/magma",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:obsidian"
+          }
+        ]
+      }
+    }
+  }
+}

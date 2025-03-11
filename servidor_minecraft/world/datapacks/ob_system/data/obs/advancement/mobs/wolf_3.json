@@ -1,0 +1,21 @@
+{
+  "parent": "obs:ob/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "minecraft:wolf_spawn_egg",
+          "components": {
+            "minecraft:custom_data": {
+				"wolf":3
+			}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "obs:mobs/wolf_3"
+  }
+}

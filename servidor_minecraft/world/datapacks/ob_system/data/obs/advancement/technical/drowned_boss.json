@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "nbt": "{Tags:[\"cob.trial_boss\"]}",
+            "equipment": {
+              "mainhand": {
+                "items": "minecraft:trident"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "obs:trial_handler/ability/drowned_boss"
+  }
+}

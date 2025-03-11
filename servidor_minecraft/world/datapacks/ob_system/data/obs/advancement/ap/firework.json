@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_rocket"
+    },
+    "title": {
+      "translate": "obs.ap.firework.title",
+      "fallback": "Explosive Endgame"
+    },
+    "description": {
+      "translate": "obs.ap.firework.desc",
+      "fallback": "Blast a Creeper with a firework rocket while in the end"
+    }
+  },
+  "parent": "obs:ap/sky",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "type": "minecraft:firework_rocket"
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:creeper",
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    }
+  }
+}

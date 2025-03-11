@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:porkchop"
+    },
+    "title": {
+      "translate": "obs.ob.zompig.title",
+      "fallback": "Step Down Pig"
+    },
+    "description": {
+      "translate": "obs.ob.zompig.desc",
+      "fallback": "Kill 50 zombified piglins"
+    }
+  },
+  "parent": "obs:ob/nether_expansion",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

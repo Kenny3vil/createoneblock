@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+  "pattern": [
+    "AB",
+    "BA"
+  ],
+  "key": {
+    "A": "minecraft:dirt",
+    "B": "minecraft:cobblestone"
+  },
+  "result": {
+    "id": "minecraft:gravel",
+    "count": 4
+  }
+}

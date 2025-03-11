@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "A",
+    "B"
+  ],
+  "key": {
+    "A": "minecraft:clay",
+    "B": "minecraft:bucket"
+  },
+  "result": {
+    "id": "minecraft:water_bucket",
+    "count": 1
+  }
+}

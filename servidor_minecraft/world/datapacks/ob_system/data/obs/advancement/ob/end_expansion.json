@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:end_stone"
+    },
+    "title": {
+      "translate": "obs.ob.end_expansion.title",
+      "fallback": "This is the End?"
+    },
+    "description": {
+      "translate": "obs.ob.end_expansion.desc",
+      "fallback": "Place 100 endstone blocks"
+    }
+  },
+  "parent": "obs:ob/nether_expansion",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

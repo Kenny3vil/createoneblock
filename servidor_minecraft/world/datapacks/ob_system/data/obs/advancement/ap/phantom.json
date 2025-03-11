@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:phantom_membrane"
+    },
+    "title": {
+      "translate": "obs.ap.phantom.title",
+      "fallback": "It's where my demons hide"
+    },
+    "description": {
+      "translate": "obs.ap.phantom.desc",
+      "fallback": "kill 50 phantoms"
+    }
+  },
+  "parent": "obs:ap/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

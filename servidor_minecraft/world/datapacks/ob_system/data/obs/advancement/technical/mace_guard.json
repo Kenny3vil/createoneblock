@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:zombie",
+            "nbt": "{Tags:[\"cob.trial_mob.guard\"]}",
+            "equipment": {
+              "mainhand": {
+                "items": "minecraft:mace"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "obs:trial_handler/ability/mace_guard"
+  }
+}

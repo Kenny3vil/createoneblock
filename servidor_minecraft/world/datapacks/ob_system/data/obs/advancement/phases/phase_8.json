@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:slime_ball"
+    },
+    "title": {
+      "translate": "obs.progress.phase_8.title",
+      "fallback": "Step 8"
+    },
+    "description": {
+      "translate": "obs.progress.phase_8.desc",
+      "fallback": "Mine the block 3500 times"
+    }
+  },
+  "parent": "obs:phases/phase_7",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

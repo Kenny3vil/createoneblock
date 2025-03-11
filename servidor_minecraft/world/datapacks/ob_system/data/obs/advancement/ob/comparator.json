@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:comparator"
+    },
+    "title": {
+      "translate": "obs.ob.comparator.title",
+      "fallback": "Technical Difficulties"
+    },
+    "description": {
+      "translate": "obs.ob.comparator.desc",
+      "fallback": "Craft a redstone comparator"
+    }
+  },
+  "parent": "obs:ob/redstone",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:comparator"
+          }
+        ]
+      }
+    }
+  }
+}
