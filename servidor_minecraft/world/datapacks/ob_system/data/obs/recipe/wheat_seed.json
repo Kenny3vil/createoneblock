@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "category": "misc",
-  "ingredient": "minecraft:dirt",
-  "result": {
-    "id": "minecraft:wheat_seeds"
-  }
-}

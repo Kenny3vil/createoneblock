@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "category": "blocks",
-  "ingredient": "minecraft:gravel",
-  "result": {
-    "id": "minecraft:iron_nugget"
-  }
-}
