@@ -1,0 +1,63 @@
+{
+  "create:root": {
+    "criteria": {
+      "0": "2025-03-11 07:39:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-03-11 07:39:23 +0000"
+    },
+    "done": true
+  },
+  "niftycarts:recipes/supply_cart": {
+    "criteria": {
+      "has_wheel": "2025-03-11 07:39:28 +0000"
+    },
+    "done": true
+  },
+  "niftycarts:recipes/plow": {
+    "criteria": {
+      "has_wheel": "2025-03-11 07:39:28 +0000"
+    },
+    "done": true
+  },
+  "niftycarts:recipes/hand_cart": {
+    "criteria": {
+      "has_wheel": "2025-03-11 07:39:28 +0000"
+    },
+    "done": true
+  },
+  "gamerz_riot:root": {
+    "criteria": {
+      "tick": "2025-03-11 07:39:23 +0000"
+    },
+    "done": true
+  },
+  "forgottengraves:recipes/building_blocks/grave": {
+    "criteria": {
+      "has_dirt": "2025-03-11 07:39:28 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2025-03-11 07:39:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:meadow": "2025-03-11 07:39:24 +0000"
+    },
+    "done": false
+  },
+  "niftycarts:recipes/animal_cart": {
+    "criteria": {
+      "has_wheel": "2025-03-11 07:39:28 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

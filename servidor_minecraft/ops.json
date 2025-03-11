@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "uuid": "76347bcd-f60d-48bc-8b53-81e7ce4fa8c7",
+    "name": "hoti26",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "0e8e1b65-4ad6-4efb-9053-c517d6466324",
+    "name": "Kenny_Evil",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "7b0811a2-0c5e-3ebe-bef1-6424210f29d8",
+    "name": "Kenny_Evil",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
